@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+import java.util.Random;
 
 @RestController
 @RequestMapping("/hello")
@@ -29,7 +30,7 @@ public class HelloController {
         List<ServiceInstance> list = client.getInstances(registration.getServiceId());
         if (list != null && list.size() > 0) {
             for(ServiceInstance itm : list){
-                if(itm.getPort() == 8888)
+                if(itm.getPort() == 8081||itm.getPort()==8082)
                     return itm;
             }
         }
@@ -38,8 +39,17 @@ public class HelloController {
 
     @RequestMapping("/lane")
     public String hello(){
-//        ServiceInstance instance = serviceInstance();
-//        logger.info("hello host: "+instance.getHost()+", serviceId: "+instance.getServiceId());
+        //sleep
+        int sleepTime = new Random().nextInt(3000);
+        logger.info("sleep time is: "+sleepTime);
+        try {
+            Thread.sleep(sleepTime);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        ServiceInstance instance = serviceInstance();
+        logger.info("hello host: "+instance.getHost()+", serviceId: "+instance.getServiceId());
         return "hello lane!";
     }
 
