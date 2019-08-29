@@ -1,0 +1,7 @@
+##ignore these files#
+/target/**
+.idea/**
+.project
+.settings
+gitignore
+
