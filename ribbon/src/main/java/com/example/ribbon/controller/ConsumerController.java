@@ -23,8 +23,8 @@ public class ConsumerController {
     @RequestMapping(value = "/ribbon-consumer",method = RequestMethod.GET)
     public String helloConsumer(){
 //        return restTemplate.getForEntity("http://HELLO-SERVICE/hello/lane",String.class).getBody();
-        return helloService.helloService();
-    }
+        System.out.println("this is ribbon-consumer");
+        return helloService.helloService();    }
 
     public static void main(String[] args) {
         Map<String,Object> map = new HashMap<String,Object>();
