@@ -21,11 +21,13 @@ public class UserServiceImpl implements UserService {
     @Override
     public User findUser(String id) {
         System.out.println("findUser id: "+id);
-        return restTemplate.getForObject("http://USER-SERVICE/user/getUser?id={1}",User.class,id);
+        User u = restTemplate.getForObject("http://USER-SERVICE/user/getUser?id={1}",User.class,id);
+        return u;
     }
 
     @Override
     public List<User> findUsers(String ids) {
-        return restTemplate.getForObject("http://USER-SERVICE/user/getUsers?ids={1}",List.class,ids);
+        List<User> userList = restTemplate.getForObject("http://USER-SERVICE/user/getUsers?ids={1}",List.class,ids);
+        return userList;
     }
 }

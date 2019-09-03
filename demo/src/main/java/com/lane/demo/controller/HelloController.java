@@ -30,8 +30,11 @@ public class HelloController {
         List<ServiceInstance> list = client.getInstances(registration.getServiceId());
         if (list != null && list.size() > 0) {
             for(ServiceInstance itm : list){
-                if(itm.getPort() == 8888)
+//                if(itm.getPort() == 8888)
+//                    return itm;
+                if(itm.getPort()==8081||itm.getPort()==8081){
                     return itm;
+                }
             }
         }
         return null;
