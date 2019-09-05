@@ -32,7 +32,7 @@ public class HelloController {
             for(ServiceInstance itm : list){
 //                if(itm.getPort() == 8888)
 //                    return itm;
-                if(itm.getPort()==8081||itm.getPort()==8081){
+                if(itm.getPort()==8081||itm.getPort()==8082||itm.getPort()==8888){
                     return itm;
                 }
             }
