@@ -1,0 +1,190 @@
+2019-09-06 16:46:49.967 [http-nio-9001-exec-1-32] ERROR com.lane.feignconsumer.controller.ConsumerController 32 helloConsumer - feign-consumer error!
+2019-09-06 16:46:49.967 [http-nio-9001-exec-1-36] ERROR com.lane.feignconsumer.controller.ConsumerController 36 helloConsumer - feign-consumer error!
+2019-09-06 16:46:52.278 [http-nio-9001-exec-2-32] ERROR com.lane.feignconsumer.controller.ConsumerController 32 helloConsumer - feign-consumer error!
+2019-09-06 16:46:52.278 [http-nio-9001-exec-2-36] ERROR com.lane.feignconsumer.controller.ConsumerController 36 helloConsumer - feign-consumer error!
+2019-09-06 16:46:54.978 [http-nio-9001-exec-3-32] ERROR com.lane.feignconsumer.controller.ConsumerController 32 helloConsumer - feign-consumer error!
+2019-09-06 16:46:54.978 [http-nio-9001-exec-3-36] ERROR com.lane.feignconsumer.controller.ConsumerController 36 helloConsumer - feign-consumer error!
+2019-09-06 16:52:10.823 [main-330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 postProcessAfterInitialization - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d857c881] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-06 16:52:11.135 [main-647] INFO  com.lane.feignconsumer.FeignConsumerApplication 647 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2019-09-06 16:52:11.994 [main-131] WARN  org.springframework.boot.actuate.endpoint.EndpointId 131 logWarning - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-09-06 16:52:12.275 [main-295] INFO  org.springframework.cloud.context.scope.GenericScope 295 setSerializationId - BeanFactory id=ad675fd4-f071-347c-8903-c48d78fdc55d
+2019-09-06 16:52:12.307 [main-330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 postProcessAfterInitialization - Bean 'com.lane.feignconsumer.service.HelloService' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-06 16:52:12.322 [main-330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 postProcessAfterInitialization - Bean 'com.lane.feignconsumer.service.RefactorHelloService' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-06 16:52:12.400 [main-330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 postProcessAfterInitialization - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d857c881] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-06 16:52:12.885 [main-90] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 90 initialize - Tomcat initialized with port(s): 9001 (http)
+2019-09-06 16:52:12.916 [main-180] INFO  org.apache.coyote.http11.Http11NioProtocol 180 log - Initializing ProtocolHandler ["http-nio-9001"]
+2019-09-06 16:52:12.931 [main-180] INFO  org.apache.catalina.core.StandardService 180 log - Starting service [Tomcat]
+2019-09-06 16:52:12.931 [main-180] INFO  org.apache.catalina.core.StandardEngine 180 log - Starting Servlet Engine: Apache Tomcat/8.5.30
+2019-09-06 16:52:13.181 [localhost-startStop-1-180] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 180 log - Initializing Spring embedded WebApplicationContext
+2019-09-06 16:52:13.181 [localhost-startStop-1-284] INFO  org.springframework.web.context.ContextLoader 284 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2030 ms
+2019-09-06 16:52:13.322 [localhost-startStop-1-121] WARN  com.netflix.config.sources.URLConfigurationSource 121 <init> - No URLs will be polled as dynamic configuration sources.
+2019-09-06 16:52:13.322 [localhost-startStop-1-122] INFO  com.netflix.config.sources.URLConfigurationSource 122 <init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-06 16:52:13.353 [localhost-startStop-1-281] INFO  com.netflix.config.DynamicPropertyFactory 281 getInstance - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@513c4352
+2019-09-06 16:52:14.244 [main-121] WARN  com.netflix.config.sources.URLConfigurationSource 121 <init> - No URLs will be polled as dynamic configuration sources.
+2019-09-06 16:52:14.244 [main-122] INFO  com.netflix.config.sources.URLConfigurationSource 122 <init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-06 16:52:14.462 [main-171] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 171 initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-06 16:52:15.306 [main-58] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 <init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-06 16:52:15.415 [main-72] INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory 72 create - Setting initial instance status as: STARTING
+2019-09-06 16:52:15.462 [main-349] INFO  com.netflix.discovery.DiscoveryClient 349 <init> - Initializing Eureka in region us-east-1
+2019-09-06 16:52:15.665 [main-70] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider 70 <init> - Using JSON encoding codec LegacyJacksonJson
+2019-09-06 16:52:15.665 [main-71] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider 71 <init> - Using JSON decoding codec LegacyJacksonJson
+2019-09-06 16:52:15.837 [main-80] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider 80 <init> - Using XML encoding codec XStreamXml
+2019-09-06 16:52:15.837 [main-81] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider 81 <init> - Using XML decoding codec XStreamXml
+2019-09-06 16:52:16.056 [main-43] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 getClusterEndpoints - Resolving eureka endpoints via configuration
+2019-09-06 16:52:16.181 [main-958] INFO  com.netflix.discovery.DiscoveryClient 958 fetchRegistry - Disable delta property : false
+2019-09-06 16:52:16.181 [main-959] INFO  com.netflix.discovery.DiscoveryClient 959 fetchRegistry - Single vip registry refresh property : null
+2019-09-06 16:52:16.181 [main-960] INFO  com.netflix.discovery.DiscoveryClient 960 fetchRegistry - Force full registry fetch : false
+2019-09-06 16:52:16.181 [main-961] INFO  com.netflix.discovery.DiscoveryClient 961 fetchRegistry - Application is null : false
+2019-09-06 16:52:16.181 [main-962] INFO  com.netflix.discovery.DiscoveryClient 962 fetchRegistry - Registered Applications size is zero : true
+2019-09-06 16:52:16.181 [main-964] INFO  com.netflix.discovery.DiscoveryClient 964 fetchRegistry - Application version is -1: true
+2019-09-06 16:52:16.181 [main-1047] INFO  com.netflix.discovery.DiscoveryClient 1047 getAndStoreFullRegistry - Getting all instance registry info from the eureka server
+2019-09-06 16:52:16.368 [main-1056] INFO  com.netflix.discovery.DiscoveryClient 1056 getAndStoreFullRegistry - The response status is 200
+2019-09-06 16:52:16.368 [main-1270] INFO  com.netflix.discovery.DiscoveryClient 1270 initScheduledTasks - Starting heartbeat executor: renew interval is: 30
+2019-09-06 16:52:16.384 [main-60] INFO  com.netflix.discovery.InstanceInfoReplicator 60 <init> - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-06 16:52:16.384 [main-449] INFO  com.netflix.discovery.DiscoveryClient 449 <init> - Discovery Client initialized at timestamp 1567759936384 with initial instances count: 2
+2019-09-06 16:52:16.384 [main-41] INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry 41 register - Registering application FEIGN-CONSUMER with eureka with status UP
+2019-09-06 16:52:16.384 [main-1305] INFO  com.netflix.discovery.DiscoveryClient 1305 notify - Saw local status change event StatusChangeEvent [timestamp=1567759936384, current=UP, previous=STARTING]
+2019-09-06 16:52:16.384 [DiscoveryClient-InstanceInfoReplicator-0-826] INFO  com.netflix.discovery.DiscoveryClient 826 register - DiscoveryClient_FEIGN-CONSUMER/CN_XINLZ01.Bizerba.com:feign-consumer:9001: registering service...
+2019-09-06 16:52:16.431 [main-180] INFO  org.apache.coyote.http11.Http11NioProtocol 180 log - Starting ProtocolHandler ["http-nio-9001"]
+2019-09-06 16:52:16.446 [DiscoveryClient-InstanceInfoReplicator-0-835] INFO  com.netflix.discovery.DiscoveryClient 835 register - DiscoveryClient_FEIGN-CONSUMER/CN_XINLZ01.Bizerba.com:feign-consumer:9001 - registration status: 204
+2019-09-06 16:52:16.446 [main-180] INFO  org.apache.tomcat.util.net.NioSelectorPool 180 log - Using a shared selector for servlet write/read
+2019-09-06 16:52:16.462 [main-202] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 202 start - Tomcat started on port(s): 9001 (http) with context path ''
+2019-09-06 16:52:16.462 [main-143] INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration 143 onApplicationEvent - Updating port to 9001
+2019-09-06 16:52:16.462 [main-59] INFO  com.lane.feignconsumer.FeignConsumerApplication 59 logStarted - Started FeignConsumerApplication in 6.624 seconds (JVM running for 7.95)
+2019-09-06 16:52:31.069 [http-nio-9001-exec-1-180] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 180 log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-06 16:52:31.069 [http-nio-9001-exec-1-524] INFO  org.springframework.web.servlet.DispatcherServlet 524 initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-09-06 16:52:31.069 [http-nio-9001-exec-1-546] INFO  org.springframework.web.servlet.DispatcherServlet 546 initServletBean - Completed initialization in 0 ms
+2019-09-06 16:52:31.101 [http-nio-9001-exec-1-31] INFO  com.lane.feignconsumer.controller.ConsumerController 31 helloConsumer - feign-consumer info!
+2019-09-06 16:52:31.101 [http-nio-9001-exec-1-32] ERROR com.lane.feignconsumer.controller.ConsumerController 32 helloConsumer - feign-consumer error!
+2019-09-06 16:52:31.101 [http-nio-9001-exec-1-35] INFO  com.lane.feignconsumer.controller.ConsumerController 35 helloConsumer - feign-consumer info!
+2019-09-06 16:52:31.101 [http-nio-9001-exec-1-36] ERROR com.lane.feignconsumer.controller.ConsumerController 36 helloConsumer - feign-consumer error!
+2019-09-06 16:52:31.304 [http-nio-9001-exec-1-115] INFO  com.netflix.config.ChainedDynamicProperty 115 checkAndFlip - Flipping property: hello-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-09-06 16:52:31.350 [http-nio-9001-exec-1-58] INFO  com.netflix.util.concurrent.ShutdownEnabledTimer 58 <init> - Shutdown hook installed for: NFLoadBalancer-PingTimer-hello-service
+2019-09-06 16:52:31.350 [http-nio-9001-exec-1-197] INFO  com.netflix.loadbalancer.BaseLoadBalancer 197 initWithConfig - Client: hello-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=hello-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2019-09-06 16:52:31.366 [http-nio-9001-exec-1-222] INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer 222 enableAndInitLearnNewServersFeature - Using serverListUpdater PollingServerListUpdater
+2019-09-06 16:52:31.382 [http-nio-9001-exec-1-115] INFO  com.netflix.config.ChainedDynamicProperty 115 checkAndFlip - Flipping property: hello-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-09-06 16:52:31.397 [http-nio-9001-exec-1-150] INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer 150 restOfInit - DynamicServerListLoadBalancer for client hello-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=hello-service,current list of Servers=[CN_XINLZ01.Bizerba.com:8888],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:CN_XINLZ01.Bizerba.com:8888;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@3cc9dbd
+2019-09-06 16:52:32.375 [PollingServerListUpdater-0-115] INFO  com.netflix.config.ChainedDynamicProperty 115 checkAndFlip - Flipping property: hello-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-09-06 16:52:33.478 [http-nio-9001-exec-1-182] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] 182 log - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is feign.RetryableException: Read timed out executing GET http://hello-service/hello/lane] with root cause java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[?:?]
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:115) ~[?:?]
+	at java.net.SocketInputStream.read(SocketInputStream.java:168) ~[?:?]
+	at java.net.SocketInputStream.read(SocketInputStream.java:140) ~[?:?]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:252) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:292) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:746) ~[?:?]
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:689) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1610) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1515) ~[?:?]
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527) ~[?:?]
+	at feign.Client$Default.convertResponse(Client.java:143) ~[feign-core-10.1.0.jar:?]
+	at feign.Client$Default.execute(Client.java:68) ~[feign-core-10.1.0.jar:?]
+	at org.springframework.cloud.openfeign.ribbon.FeignLoadBalancer.execute(FeignLoadBalancer.java:93) ~[spring-cloud-openfeign-core-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.cloud.openfeign.ribbon.FeignLoadBalancer.execute(FeignLoadBalancer.java:56) ~[spring-cloud-openfeign-core-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at com.netflix.client.AbstractLoadBalancerAwareClient$1.call(AbstractLoadBalancerAwareClient.java:104) ~[ribbon-loadbalancer-2.3.0.jar:2.3.0]
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$3$1.call(LoadBalancerCommand.java:303) ~[ribbon-loadbalancer-2.3.0.jar:2.3.0]
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$3$1.call(LoadBalancerCommand.java:287) ~[ribbon-loadbalancer-2.3.0.jar:2.3.0]
+	at rx.internal.util.ScalarSynchronousObservable$3.call(ScalarSynchronousObservable.java:231) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.util.ScalarSynchronousObservable$3.call(ScalarSynchronousObservable.java:228) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.Observable.unsafeSubscribe(Observable.java:10327) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeConcatMap$ConcatMapSubscriber.drain(OnSubscribeConcatMap.java:286) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeConcatMap$ConcatMapSubscriber.onNext(OnSubscribeConcatMap.java:144) ~[rxjava-1.3.8.jar:1.3.8]
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:185) ~[ribbon-loadbalancer-2.3.0.jar:2.3.0]
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:180) ~[ribbon-loadbalancer-2.3.0.jar:2.3.0]
+	at rx.Observable.unsafeSubscribe(Observable.java:10327) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:94) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:42) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.Observable.unsafeSubscribe(Observable.java:10327) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber$1.call(OperatorRetryWithPredicate.java:127) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.enqueue(TrampolineScheduler.java:73) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.schedule(TrampolineScheduler.java:52) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:79) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:45) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.util.ScalarSynchronousObservable$WeakSingleProducer.request(ScalarSynchronousObservable.java:276) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.Subscriber.setProducer(Subscriber.java:209) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:138) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:129) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.Observable.subscribe(Observable.java:10423) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.Observable.subscribe(Observable.java:10390) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:443) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.observables.BlockingObservable.single(BlockingObservable.java:340) ~[rxjava-1.3.8.jar:1.3.8]
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:112) ~[ribbon-loadbalancer-2.3.0.jar:2.3.0]
+	at org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:83) ~[spring-cloud-openfeign-core-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:108) ~[feign-core-10.1.0.jar:?]
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:78) ~[feign-core-10.1.0.jar:?]
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:103) ~[feign-core-10.1.0.jar:?]
+	at com.sun.proxy.$Proxy119.hello(Unknown Source) ~[?:?]
+	at com.lane.feignconsumer.controller.ConsumerController.helloConsumer(ConsumerController.java:38) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635) ~[tomcat-embed-core-8.5.30.jar:8.5.30]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) ~[tomcat-embed-core-8.5.30.jar:8.5.30]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-8.5.30.jar:8.5.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.30.jar:8.5.30]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.30.jar:8.5.30]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.30.jar:8.5.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.30.jar:8.5.30]
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88) ~[spring-boot-actuator-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.30.jar:8.5.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.30.jar:8.5.30]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.30.jar:8.5.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.30.jar:8.5.30]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.30.jar:8.5.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.30.jar:8.5.30]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.30.jar:8.5.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.30.jar:8.5.30]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114) ~[spring-boot-actuator-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104) ~[spring-boot-actuator-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.30.jar:8.5.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.30.jar:8.5.30]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.30.jar:8.5.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.30.jar:8.5.30]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.30.jar:8.5.30]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.30.jar:8.5.30]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496) [tomcat-embed-core-8.5.30.jar:8.5.30]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.30.jar:8.5.30]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.30.jar:8.5.30]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.30.jar:8.5.30]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.30.jar:8.5.30]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803) [tomcat-embed-core-8.5.30.jar:8.5.30]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.30.jar:8.5.30]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790) [tomcat-embed-core-8.5.30.jar:8.5.30]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459) [tomcat-embed-core-8.5.30.jar:8.5.30]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.30.jar:8.5.30]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.30.jar:8.5.30]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+

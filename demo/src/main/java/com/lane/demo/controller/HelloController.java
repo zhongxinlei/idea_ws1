@@ -1,8 +1,8 @@
 package com.lane.demo.controller;
 
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+//import org.apache.log4j.Logger;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
@@ -18,7 +18,8 @@ import com.lane.entity.User;
 @RequestMapping("/hello")
 public class HelloController {
 
-    private static final Logger logger = LoggerFactory.getLogger(HelloController.class);
+//    private static final Logger logger = Logger.getLogger(HelloController.class);
+    private static final Logger logger = Logger.getLogger(HelloController.class);
 
     @Autowired
     private Registration registration;
@@ -47,7 +48,11 @@ public class HelloController {
         logger.info("sleep time is: "+sleepTime);
         try {
             Thread.sleep(sleepTime);
-        } catch (InterruptedException e) {
+            int a = 1/0;
+        } catch (Exception e) {
+            logger.error("error lane");
+            logger.info("------------------------------------------------------");
+            logger.error("error! "+e.getMessage());
             e.printStackTrace();
         }
 
