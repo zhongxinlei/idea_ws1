@@ -32,9 +32,9 @@ public class ConsumerController {
         logger.error("feign-consumer error!");
         logger.debug("feign-consumer debug!");
         System.out.println("-------------------------------------------------------------------------------------");
-        log.info("feign-consumer info!");
-        log.error("feign-consumer error!");
-        log.debug("feign-consumer debug!");
+        log.info("log4j2 feign-consumer info!");
+        log.error("log4j2 feign-consumer error!");
+        log.debug("log4j2 feign-consumer debug!");
         return helloService.hello();
     }
 

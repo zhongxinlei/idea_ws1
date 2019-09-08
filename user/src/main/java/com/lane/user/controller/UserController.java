@@ -1,11 +1,11 @@
 package com.lane.user.controller;
 
 import com.lane.entity.User;
-import org.slf4j.Logger;
+import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.ArrayList;
@@ -15,7 +15,12 @@ import java.util.List;
 @RequestMapping(value = "/user")
 public class UserController {
 
-    private static final Logger logger = LoggerFactory.getLogger(UserController.class);
+//    private static final Logger logger = LoggerFactory.getLogger(UserController.class);
+//
+//    private static final org.apache.logging.log4j.Logger log = LogManager.getLogger(UserController.class);
+
+    //log4j1
+    private static final Logger logger = Logger.getLogger(UserController.class);
 
     private List<User> userList = new ArrayList<User>();
 
@@ -37,7 +42,11 @@ public class UserController {
     @ResponseBody
     @RequestMapping(value = "/getUser")
     public User getUser(String id){
+        logger.info("info: before users init");
+        logger.error("error: before users init");
         init();
+        logger.info("info: after users init");
+        logger.error("error: after users init");
         return userList.get(Integer.parseInt(id));
     }
 

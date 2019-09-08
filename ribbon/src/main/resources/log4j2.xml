@@ -4,7 +4,7 @@
         <!--<Property name="LOG_HOME">${sys:catalina.base}/var/logs</Property>-->
         <!--<Property name="LOG_HOME">C:\\Users\\cn_xinlz\\Documents\\log\\log4j2</Property>-->
         <Property name="LOG_HOME">G:\\java\\projects\\log\\idea_ws1</Property>
-        <Property name="APP_LOG_HOME">${LOG_HOME}\\uas</Property>
+        <Property name="APP_LOG_HOME">${LOG_HOME}\\ribbon</Property>
     </Properties>
 
     <Appenders>

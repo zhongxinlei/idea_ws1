@@ -1,7 +1,8 @@
 ##ignore these files#
-/target/**
+**/target/**
 .idea/**
 .project
 .settings
+**/*.lst
+**/log/**
 gitignore
-
